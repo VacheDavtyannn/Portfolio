@@ -1,0 +1,328 @@
+body {
+    font-family: 'Plus Jakarta Sans';
+    background-color: #120323;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1270px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    /* background-color: beige; */
+
+}
+
+.header {
+    display: flex;
+    color: #ffffff;
+    background-color: #1A0B2E;
+    padding: 0 50px 0 50px;
+    min-width: 800px;
+}
+
+.header_list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header_list_item {
+    padding-left: 165px;
+    margin: 43px 0 43px 0;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.header_list_item:first-child {
+    padding-left: 0;
+    margin-top: 37px;
+}
+
+/* .header_list_item:last-child{
+    padding-right: 350px;
+} */
+
+.greetings {
+
+
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 97px;
+
+
+    color: #FFFFFF;
+
+    margin-bottom: 85px;
+
+}
+
+.greetings_my_name {
+    color: #7127BA;
+
+}
+
+.header_list_item a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.info_container {
+    display: flex;
+
+
+}
+
+.info {
+    list-style: none;
+    color: #FFFFFF;
+
+}
+
+.info_2 {
+    color: #FFFFFF;
+
+}
+
+
+
+.info_item_pct {}
+
+.info_item_arw {
+    margin-left: 175px;
+
+
+}
+
+.info_item_huge {
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 63px;
+
+    margin-top: 6px;
+}
+
+.info_item_huge_word {
+    color: #7127BA;
+
+}
+
+.info_item_huge_ellipse {}
+
+.info_item {
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 31px;
+
+}
+
+.info_item_tiny {
+
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+
+    margin-top: 3px;
+}
+
+.about_me {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.about_me_header {
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 90px;
+    letter-spacing: 0.02em;
+
+}
+
+.about_me_school {
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 38px;
+
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.about_me_destinations {
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+
+    margin-top: 127px;
+    margin-left: 25px;
+}
+
+.projects_section {}
+
+.Caption_projects {
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 72px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    margin: 124px 0 0 0;
+}
+
+.projects_list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projects {
+    display: flex;
+    background: #2C1250;
+    width: 570px;
+    margin: 15px 24px 0 0;
+    box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+.projects:nth-child(3) {
+    margin: 15px 24px 0 0;
+}
+
+.projects:nth-child(4) {
+    margin: 15px 24px 0 0;
+}
+
+.projects_logo {}
+
+.projects img {
+    margin: 53px 0 46px 59px;
+}
+
+.projects_header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 125%;
+
+    color: #FFFFFF;
+}
+
+.projects_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 131%;
+    color: #FFFFFF;
+
+    margin: 12px 0 0 0;
+}
+
+.projects_button_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+
+    color: #FFFFFF;
+}
+
+
+.projects_container {
+    margin: 45px 0 0 40px;
+    width: 570px;
+}
+
+.projects_button {
+    border: 1px solid #693B93;
+    border-radius: 10px;
+
+    width: 120px;
+    height: 30px;
+
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+.projects_button_text {
+    text-decoration: none;
+}
+
+.word {
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 129%;
+
+    letter-spacing: 0.02em;
+
+    color: #A362FF;
+}
+
+.current-deals {
+    color: #FFFFFF;
+
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 129%;
+    letter-spacing: 0.02em;
+
+    margin-top: 161px;
+
+    text-align: center;
+}
+
+.sentence {
+font-size: 16px;
+}
+
+._img {
+    /* margin-top: 30px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.big-logo {
+    margin-top: 0;
+}
+
+
